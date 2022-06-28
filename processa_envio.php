@@ -58,7 +58,7 @@
 			$mail->Port       = 587;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
 			//Recipients
-			$mail->setFrom('webcompleto2@gmail.com', 'Web Completo Remetente');
+			$mail->setFrom('seuemail@gmail.com', 'Web Completo Remetente');
 			$mail->addAddress($mensagem->__get('para'));     //Add a recipient
 			
 			//Content
